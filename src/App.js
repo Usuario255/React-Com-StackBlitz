@@ -1,11 +1,16 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+//Componente
+import Home from './components/views/home.jsx';
+// Style
+import './style.css';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <ChakraProvider>
+        <Home />
+      </ChakraProvider>
     </div>
   );
 }
