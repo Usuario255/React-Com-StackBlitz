@@ -2,7 +2,7 @@ import React from 'react';
 [];
 
 const Home = () => {
-  return <></>;
+  return <>ola</>;
 };
 
 export default Home;

@@ -1,17 +1,17 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 //Componente
-import Home from './components/views/home.jsx';
 import NavBar from './components/shared/nav-bar/nav-bar.jsx';
 // Style
 import './style.css';
 
 export default function App() {
   return (
-    <div>
+    <div className="App">
       <ChakraProvider>
-        <NavBar/>
-        <Home />
+        <NavBar />
+        <Outlet> </Outlet>
       </ChakraProvider>
     </div>
   );
