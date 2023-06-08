@@ -1,0 +1,12 @@
+.menu {
+  background-color: rgb(251, 253, 255);
+  color: rgb(255, 38, 0);
+}
+:hover.menu {
+  background-color: rgb(255, 38, 0);
+  color: rgb(251, 253, 255);
+}
+.logo {
+  margin-left: 80%;
+  width: 20vw;
+}
