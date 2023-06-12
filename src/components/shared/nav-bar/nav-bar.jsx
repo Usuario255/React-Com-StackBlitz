@@ -39,11 +39,7 @@ const NavBar = () => {
                 <i class="fa fa-bars" aria-hidden="true"></i>
               </Button>
             </Box>
-            <Box className="logo" height="50px" justifyContent="center">
-              <Text>
-                <h3>Titulo</h3>
-              </Text>
-            </Box>
+            <Box className="logo" height="50px" justifyContent="center"></Box>
           </SimpleGrid>
         </CardBody>
       </Card>
