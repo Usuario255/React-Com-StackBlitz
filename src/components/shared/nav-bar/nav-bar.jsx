@@ -31,9 +31,9 @@ const NavBar = () => {
           <SimpleGrid columns={2} spacing={10}>
             <Box height="50px">
               <Button
+                colorScheme="orange"
                 className="menu"
                 ref={btnRef}
-                colorScheme="teal"
                 onClick={onOpen}
               >
                 <i class="fa fa-bars" aria-hidden="true"></i>

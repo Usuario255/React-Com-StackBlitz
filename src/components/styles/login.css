@@ -1,0 +1,22 @@
+.login {
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  margin-left: 38vw;
+  border-radius: 10px;
+  border: #ff6d00 1.5px;
+}
+.form-login {
+  max-width: 300px;
+  border-radius: 30px;
+  border: #ff6d00 1.5px;
+}
+
+.senha-label {
+  margin-top: 20px;
+}
+input::placeholder {
+  color: #ff6d00;
+}

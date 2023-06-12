@@ -2,7 +2,14 @@ import React from 'react';
 [];
 
 const Home = () => {
-  return <>ola</>;
+  return (
+    <>
+      <div>
+        kmjkm
+        
+      </div>
+    </>
+  );
 };
 
 export default Home;

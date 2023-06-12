@@ -11,7 +11,9 @@ export default function App() {
     <div className="App">
       <ChakraProvider>
         <NavBar />
+        <div className="Body">
         <Outlet> </Outlet>
+        </div>
       </ChakraProvider>
     </div>
   );
